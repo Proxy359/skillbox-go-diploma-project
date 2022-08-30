@@ -112,26 +112,6 @@ func getResultData() ResultT {
 			return resultAns
 		}
 
-		/*log.Println(smsData)
-		log.Println()
-		log.Println()
-		log.Println(mmsData)
-		log.Println()
-		log.Println()
-		log.Println(voiceData)
-		log.Println()
-		log.Println()
-		log.Println(emailData)
-		log.Println()
-		log.Println()
-		log.Println(billingData)
-		log.Println()
-		log.Println()
-		log.Println(supportData)
-		log.Println()
-		log.Println()
-		log.Println(incidentsData)*/
-
 		resultSetAns := ResultSetT{smsData, mmsData, voiceData, emailData, billingData, supportData, incidentsData}
 
 		resultAns = ResultT{true, resultSetAns, ""}
